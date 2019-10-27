@@ -1,7 +1,7 @@
-let path = new Path();
+var path = new Path();
 
 path.strokeColor = 'blue';
-let start = new Point(100, 100); 
+var start = new Point(100, 100); 
 
 path.moveTo(start);
 
