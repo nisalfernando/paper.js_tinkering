@@ -1,3 +1,4 @@
+// Blue line
 var path = new Path();
 
 path.strokeColor = 'blue';
@@ -7,7 +8,7 @@ path.moveTo(start);
 
 path.lineTo(start + [500, -200]);
 
-
+// Red line
 var path = new Path();
 
 path.strokeColor = 'red';
