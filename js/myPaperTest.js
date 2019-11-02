@@ -18,6 +18,7 @@ path.moveTo(start);
 
 path.lineTo(start + [500, -100]);
 
+// Circle
 var path = new Path.Circle({
 	center: view.center,
 	radius: 30,
