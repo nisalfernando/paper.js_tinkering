@@ -1,14 +1,14 @@
 // Blue line
-var path = new Path();
+var blueLine = new Path();
 
-path.strokeColor = 'blue';
-var start = new Point(100, 100); 
+blueLine.strokeColor = 'blue';
+var startBlue = new Point(100, 100); 
 
-path.moveTo(start);
+blueLine.moveTo(startBlue);
 
-path.lineTo(start + [500, -200]);
+blueLine.lineTo(startBlue + [500, -200]);
 
-// Red line
+/*// Red line
 var path = new Path();
 
 path.strokeColor = 'red';
@@ -29,3 +29,8 @@ function onResize(event) {
 	// Whenever the window is resized, recenter the path:
 	path.position = view.center;
 }
+
+// Square
+var path = new Path.square({
+	center:
+})*/
