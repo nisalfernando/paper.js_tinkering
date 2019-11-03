@@ -8,16 +8,16 @@ blueLine.moveTo(startBlue);
 
 blueLine.lineTo(startBlue + [500, -200]);
 
-/*// Red line
-var path = new Path();
+// Red line
+var redLine = new Path();
 
-path.strokeColor = 'red';
-var start = new Point(100, 100); 
+redLine.strokeColor = 'red';
+var startRed = new Point(100, 100); 
 
-path.moveTo(start);
+redLine.moveTo(startRed);
 
-path.lineTo(start + [500, -100]);
-
+redLine.lineTo(startRed + [500, -100]);
+/*
 // Circle
 var path = new Path.Circle({
 	center: view.center,
