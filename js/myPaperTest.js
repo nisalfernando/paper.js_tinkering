@@ -28,7 +28,7 @@ var blackCircle = new Path.Circle({
 
 function onResize(event) {
 	// Whenever the window is resized, recenter the path:
-	path.position = view.center;
+	blackCircle.position = view.center;
 }
 /*
 // Square
