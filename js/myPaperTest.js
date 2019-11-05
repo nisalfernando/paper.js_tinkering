@@ -31,14 +31,22 @@ function onResize(event) {
 	blackCircle.position = view.center;
 }
 
-// Square
+// Squares
 var blackSquare = new Path();
 blackSquare.strokeColor = 'black';
-blackSquare.add(new Point(30, 75)); 
+blackSquare.add(new Point(30, 75));
 blackSquare.add(new Point(30, 25)); 
 blackSquare.add(new Point(80, 25));
 blackSquare.add(new Point(80, 75));
 blackSquare.closed = true;
+
+var blackSquare2 = new Path();
+blackSquare2.strokeColor = 'black';
+blackSquare2.add(new Point(120, 75)); 
+blackSquare2.add(new Point(120, 25)); 
+blackSquare2.add(new Point(170, 25));
+blackSquare2.add(new Point(170, 75));
+blackSquare2.closed = true;
 
 // var path = new Path();
 // path.strokeColor = 'black';
