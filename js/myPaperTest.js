@@ -30,8 +30,31 @@ function onResize(event) {
 	// Whenever the window is resized, recenter the path:
 	blackCircle.position = view.center;
 }
-/*
+
 // Square
-var path = new Path.square({
-	center:
-})*/
+var blackSquare = new Path();
+blackSquare.strokeColor = 'black';
+blackSquare.add(new Point(30, 75)); 
+blackSquare.add(new Point(30, 25)); 
+blackSquare.add(new Point(80, 25));
+blackSquare.add(new Point(80, 75));
+blackSquare.closed = true;
+
+// var path = new Path();
+// path.strokeColor = 'black';
+// path.add(new Point(30, 75)); 
+// path.add(new Point(30, 25)); 
+// path.add(new Point(80, 25));
+// path.add(new Point(80, 75));
+// path.closed = true;
+
+// // Select the path, so we can see its handles:
+//path.fullySelected = true;
+
+// Create a copy of the path and move it 100pt to the right:
+// var copy = path.clone();
+// copy.fullySelected = true;
+// copy.position.x += 100;
+
+// Smooth the segments of the copy:
+// copy.smooth();
