@@ -26,6 +26,13 @@ var blackCircle = new Path.Circle({
 	fillColor: 'orange'
 });
 
+var blackCircle = new Path.Circle({
+	center: view.center,
+	radius: 30,
+	strokeColor: 'black',
+	fillColor: 'blue'
+});
+
 function onResize(event) {
 	// Whenever the window is resized, recenter the path:
 	blackCircle.position = view.center;
