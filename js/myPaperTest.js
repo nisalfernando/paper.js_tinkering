@@ -26,12 +26,16 @@ var blackCircle = new Path.Circle({
 	fillColor: 'orange'
 });
 
-var blackCircle = new Path.Circle({
+
+
+var blueCircle = new Path.Circle({
 	center: view.center,
 	radius: 30,
-	strokeColor: 'black',
+	strokeColor: 'red',
 	fillColor: 'blue'
 });
+
+document.querySelector('#circleOne').value = 'Nisal';
 
 function onResize(event) {
 	// Whenever the window is resized, recenter the path:
