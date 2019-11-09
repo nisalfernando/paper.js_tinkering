@@ -77,3 +77,8 @@ blackSquare2.closed = true;
 
 // Smooth the segments of the copy:
 // copy.smooth();
+
+var rectangleOne = new Rectangle(new Point(50, 50), new Point(150, 100));
+var displayRectangle = new Path.Rectangle(rectangleOne);
+displayRectangle.fillColor = 'Green';
+displayRectangle.selected = true;
